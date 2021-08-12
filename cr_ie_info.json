@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "linux64",
+		"os_name" : "Linux Mint",
+		"os_version" : "18"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Segment Violation at 0xc",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7ff5b1563109: QtGui.so.4 + 0x20b109 (_ZN12QApplication6notifyEP7QObjectP6QEvent + 0x3e9)\n\t0x7ff5c8a98ac4: QtCore.so.4 + 0x1b5ac4 (_ZN16QCoreApplication14notifyInternalEP7QObjectP6QEvent + 0x84)\n\t0x7ff5b155fac5: QtGui.so.4 + 0x207ac5 (_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb + 0x135)\n\t0x7ff5b15e692a: QtGui.so.4 + 0x28e92a\n\t0x7ff5b15e562a: QtGui.so.4 + 0x28d62a (_ZN12QApplication15x11ProcessEventEP7_XEvent + 0xe2a)\n\t0x7ff5b1610d62: QtGui.so.4 + 0x2b8d62\n\t0x7ff5aae53267: glib-2.0.so.0 + 0x4a267 (g_main_context_dispatch + 0x2a7)\n\t0x7ff5aae534c0: glib-2.0.so.0 + 0x4a4c0\n\t0x7ff5aae5356c: glib-2.0.so.0 + 0x4a56c (g_main_context_iteration + 0x2c)\n\t0x7ff5c8acbaf5: QtCore.so.4 + 0x1e8af5 (_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE + 0x65)\n\t0x7ff5b161089f: QtGui.so.4 + 0x2b889f\n\t0x7ff5c8a97ad5: QtCore.so.4 + 0x1b4ad5 (_ZN10QEventLoop13processEventsE6QFlagsINS_17ProcessEventsFlagEE + 0x35)\n\t0x7ff5c8a97ea8: QtCore.so.4 + 0x1b4ea8 (_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE + 0x128)\n\t0x7ff5b15f7a8f: QtGui.so.4 + 0x29fa8f\n\t0x7ff5b157337a: QtGui.so.4 + 0x21b37a (_ZN5QDrag4execE6QFlagsIN2Qt10DropActionEES2_ + 0x6a)\n\t0x7ff5b1573403: QtGui.so.4 + 0x21b403 (_ZN5QDrag4execE6QFlagsIN2Qt10DropActionEE + 0x13)\n\t0x7ff5400c3011: edt_gedq + 0x11f011 (_ZN14GEDQ_FRAME_WND7do_dragERK6QPoint + 0x393)\n\t0x7ff5400c35f4: edt_gedq + 0x11f5f4 (_ZN19GEDQ_SELECTION_MODE14do_button_downE6QFlagsIN2Qt16KeyboardModifierEERK6QPointb + 0x42e)\n\t0x7ff5400c37a1: edt_gedq + 0x11f7a1 (_ZN19GEDQ_SELECTION_MODE16on_l_button_downE6QFlagsIN2Qt16KeyboardModifierEERK6QPoint + 0x81)\n\t0x7ff54005c4cb: edt_gedq + 0xb84cb (_ZN9GEDQ_VIEW15mousePressEventEP11QMouseEvent + 0x137)\n\t0x7ff5b15bdf2b: QtGui.so.4 + 0x265f2b (_ZN7QWidget5eventEP6QEvent + 0x46b)\n\t0x7ff5b155c84f: QtGui.so.4 + 0x20484f (_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent + 0xaf)\n\t0x7ff5b15630d3: QtGui.so.4 + 0x20b0d3 (_ZN12QApplication6notifyEP7QObjectP6QEvent + 0x3b3)\n\t0x7ff5c8a98ac4: QtCore.so.4 + 0x1b5ac4 (_ZN16QCoreApplication14notifyInternalEP7QObjectP6QEvent + 0x84)\n\t0x7ff5b155fac5: QtGui.so.4 + 0x207ac5 (_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb + 0x135)\n\t0x7ff5b15e692a: QtGui.so.4 + 0x28e92a\n\t0x7ff5b15e562a: QtGui.so.4 + 0x28d62a (_ZN12QApplication15x11ProcessEventEP7_XEvent + 0xe2a)\n\t0x7ff5b1610d62: QtGui.so.4 + 0x2b8d62\n\t0x7ff5aae53267: glib-2.0.so.0 + 0x4a267 (g_main_context_dispatch + 0x2a7)\n\t0x7ff5aae534c0: glib-2.0.so.0 + 0x4a4c0\n\t0x7ff5aae5356c: glib-2.0.so.0 + 0x4a56c (g_main_context_iteration + 0x2c)\n\t0x7ff5c8acbaf5: QtCore.so.4 + 0x1e8af5 (_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE + 0x65)\n\t0x7ff5b161089f: QtGui.so.4 + 0x2b889f\n\t0x7ff5c8a97ad5: QtCore.so.4 + 0x1b4ad5 (_ZN10QEventLoop13processEventsE6QFlagsINS_17ProcessEventsFlagEE + 0x35)\n\t0x7ff5c8a97ea8: QtCore.so.4 + 0x1b4ea8 (_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE + 0x128)\n\t0x7ff5c8a9ccc4: QtCore.so.4 + 0x1b9cc4 (_ZN16QCoreApplication4execEv + 0xb4)\n\t   0x401eab: quartus + 0x1eab (_Z8qgq_mainiPPKc + 0x7b)\n\t0x7ff5b4d46e30: ccl_msg + 0x3ee30 (_Z15msg_main_threadPv + 0x10)\n\t0x7ff5b440cacc: ccl_thr + 0x5acc (thr_final_wrapper + 0xc)\n\t0x7ff5b4d46eef: ccl_msg + 0x3eeef (_Z18msg_thread_wrapperPFPvS_ES_ + 0x62)\n\t0x7ff5b447ef9c: ccl_mem + 0x9f9c (_Z18mem_thread_wrapperPFPvS_ES_ + 0x5c)\n\t0x7ff5b444cb39: ccl_err + 0x8b39 (_Z18err_thread_wrapperPFPvS_ES_ + 0x27)\n\t0x7ff5b440cb0f: ccl_thr + 0x5b0f (thr_thread_wrapper + 0x15)\n\t0x7ff5b4d48ea1: ccl_msg + 0x40ea1 (_Z12msg_exe_mainiPPKcPFiiS1_E + 0xb2)\n\t   0x401f91: quartus + 0x1f91 (main + 0x26)\n\t0x7ff5abeab840: c.so.6 + 0x20840 (__libc_start_main + 0xf0)\n\t   0x401d39: quartus + 0x1d39\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Lite Edition"
+	}
+}
